@@ -2,7 +2,7 @@
 
 body{
   font-family: 'Roboto', sans-serif;
-  background: #3d84a8;
+  background: white;
 }
 
 a{
@@ -37,6 +37,8 @@ nav{
   background: #48466d;
   width: 50%;
   height: 4em;
+  position: sticky;
+  top: 0;
 }
 header{
   display: inline-block;
@@ -44,9 +46,10 @@ header{
   background: #48466d;
   width: 50%;
   height: 4em;
+  position: sticky;
+  top: 0;
 }
 .titulo{
-  //font-size: 1em;
   color: white;
   vertical-align: middle;
   margin-bottom: 1em;
@@ -62,6 +65,20 @@ header{
   padding-left: 2.5%;
   padding-top: 0.5em;
 }
+.yobig{
+  width: 30%;
+  margin: 0;
+  margin-left: 35%;
+  border-radius: 50%;
+}
+.picture{
+  float: left;
+  width: 12em;
+  height: 12em;
+  vertical-align: middle;
+  margin-left: 2em;
+  margin-bottom: 2em;
+}
 .texto{
   background: #46cdcf;
   float: left;
@@ -71,12 +88,62 @@ header{
   width: 60%;
   border-radius: 5px;
   box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  padding: 2%;
 }
 .parrafo{
   color: white;
   margin-left: 4%;
+  align: "justify";
+}
+.mitad{
+  width: 50%;
+  float: left;
 }
 .sub{
   color: white;
   margin-left: 3%;
+}
+.txt{
+  height: 2em;
+}
+footer{
+  width: 100%;
+  float: left;
+  display: block;
+  box-sizing: border-box;
+  background: #48466d;
+  margin-top: 1em;
+
+}
+
+.inputs{
+  padding: 1em 1em 1em 1em;
+  width: 90%;
+}
+.button{
+  border-radius: 5px;
+  border: solid;
+}
+input{
+  background: transparent;
+  outline: none;
+}
+textarea{
+  background: transparent;
+  outline: none;
+}
+.w3-input{
+  padding:8px;
+  display:block;
+  border:none;
+  border-bottom:1px solid #ccc;
+  width:100%
+}
+.w3-animate-input{
+  transition:width 0.4s ease-in-out
+}
+.w3-animate-input:focus{
+  width:100%
+  !important
 }

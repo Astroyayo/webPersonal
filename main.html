@@ -17,38 +17,91 @@
         <li> <a href="#tema2">Cursos</a></li>
         <li> <a href="#tema3">Hobbies</a> </li>
         <li> <a href="#tema4">Interéses</a> </li>
-        <li> <a href="#">Contactame</a> </li>
+        <li> <a href="#contact">Contactame</a> </li>
       </ul>
     </nav>
     <div class="texto">
-      <p class="parrafo">Mi nombre es Luis Gerardo Barreto, nací el 23 de julio
+      <img src="me.jpg" alt="Yo" class="yobig">
+      <hr>
+      <p class="parrafo">
+        Mi nombre es Luis Gerardo Barreto, nací el 23 de julio
       de 1999 en Tecomán, Colima. Respecto al día de hoy, 22 de marzo del 2019,
-      tengo 19 años. mbnlanlanlanlanal mas mierda que me describe</p>
+      tengo 19 años. Actualmente vivo en la ciudad de Colima, estudio en la
+      facultad de telemática en la Universidad de Colima. Trabajo los fines de
+      semana en un foodtruck de nombre "Trópico".</p>
     </div>
     <div class="texto" id="tema1">
       <h3 class="sub">Estudios</h3>
-      <p class="parrafo">dfnslkjdnflakjsdnflkjansdlfjnasldjfnlasjdfnlajdsnfljandslfjknalsdjfa
-      lkjandsflkjnasldjfnlasdjnflasjdnflkjandslfjknasldjfnlakjdnfljandsfljka
-      lkjsadnflkjansdlfkjnaldsjnflajdsnflajndsfljandslfj</p>
+      <p class="parrafo mitad">
+        Cursé la primaria en la escuela Ma. Luisa Montes Virgen en Tecomán,
+        egresé la secundaria de la escuela Jesús Reyes Heroles en la ciudad de
+        Colima.
+        Los estudios de media superior fueron cumplidos en el Bachillerato
+        Técnico #2. Y actualmente curso la carrera de Ing. de Software en la
+        Facultad de Telemática en la Universidad de Colima.
+      </p>
+      <img src="stdy.png" alt="Estudios" class="picture">
     </div>
     <div class="texto" id="tema2">
       <h3 class="sub">Cursos</h3>
-      <p class="parrafo">dfnslkjdnflakjsdnflkjansdlfjnasldjfnlasjdfnlajdsnfljandslfjknalsdjfa
-      lkjandsflkjnasldjfnlasdjnflasjdnflkjandslfjknasldjfnlakjdnfljandsfljka
-      lkjsadnflkjansdlfkjnaldsjnflajdsnflajndsfljandslfj</p>
+      <p class="parrafo mitad">
+        De niño asistí a varios cursos, de música fui a cursos de Saxofón y
+        clarinete. También fui a un curso de matemáticas en la secundaria.
+        Actualmente no he asistido a un curso relacionado con la carrera pero
+        espero poder ir a varios.
+      </p>
+      <img src="curso.png" alt="Cursos" class="picture">
     </div>
     <div class="texto" id="tema3">
       <h3 class="sub">Hobbies</h3>
-      <p class="parrafo">dfnslkjdnflakjsdnflkjansdlfjnasldjfnlasjdfnlajdsnfljandslfjknalsdjfa
-      lkjandsflkjnasldjfnlasdjnflasjdnflkjandslfjknasldjfnlakjdnfljandsfljka
-      lkjsadnflkjansdlfkjnaldsjnflajdsnflajndsfljandslfj</p>
+      <p class="parrafo mitad">
+        Me gusta salir en bicicleta a pueblos cercanos los fines de semana por
+        las mañanas, también salgo a diferentes recorridos en patines por la
+        ciudad en busca de colinas para deslizarme.
+      </p>
+      <img src="hob.png" alt="Hobbies" class="picture">
     </div>
     <div class="texto" id="tema4">
       <h3 class="sub">Interéses</h3>
-      <p class="parrafo">dfnslkjdnflakjsdnflkjansdlfjnasldjfnlasjdfnlajdsnfljandslfjknalsdjfa
-      lkjandsflkjnasldjfnlasdjnflasjdnflkjandslfjknasldjfnlakjdnfljandsfljka
-      lkjsadnflkjansdlfkjnaldsjnflajdsnflajndsfljandslfj</p>
+      <p class="parrafo mitad">
+        El desarrollo de aplicaciones móviles es similar al desarrollo de
+        aplicaciones web, y tiene sus raíces en el desarrollo de software más
+        tradicional. Una diferencia fundamental, sin embargo, es que las
+        aplicaciones (apps) móviles a menudo se escriben específicamente para
+        aprovechar las características únicas que ofrece un dispositivo móvil
+        en particular.
+      </p>
+      <img src="game.png" alt="Interéses" class="picture">
     </div>
+
+    <footer id="contact">
+      <form onsubmit="preventDefault()">
+
+                    <div class="inputs">
+                        <label class="parrafo" for="nombre">Nombre: </label><br>
+                        <input class="w3-input w3-animate-input" id="nombre" type="text" required>
+                    </div>
+
+                    <div class="inputs">
+                        <label class="parrafo" for="correo">Correo electornico: </label><br>
+                        <input class="w3-input w3-animate-input" type="email" id="correo" required>
+                    </div>
+
+                    <div class="inputs">
+                        <label class="parrafo" for="asunto">Asunto: </label><br>
+                        <input class="w3-input w3-animate-input" type="text" id="asunto">
+                    </div>
+
+                    <div class="inputs">
+                        <label class="parrafo" for="mensaje">Tu mensaje: </label><br>
+                        <textarea class="w3-input w3-animate-input txt" id="mensaje" cols="30" rows="10" required></textarea>
+                    </div>
+
+                    <div class="inputs">
+                        <input class="button parrafo" type="submit" value="Enviar">
+                    </div>
+                </form>
+    </footer>
 
   </body>
 </html>
