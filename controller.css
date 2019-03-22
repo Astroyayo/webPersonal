@@ -2,26 +2,62 @@
 
 body{
   font-family: 'Roboto', sans-serif;
+  background: #3d84a8;
 }
-
 a{
   text-decoration: none;
   display: block;
   vertical-align: middle;
   padding: 1em;
   color: white;
+  width: 65%;
+  height: 1em;
+}
+a:hover{
+  color: #bfbfbf;
 }
 ul{
   list-style: none;
   float: right;
 }
+header{
+  float: left;
+}
 li{
   float: left;
   text-align: center;
+}
+li:hover{
+  background: #726fac;
 }
 nav{
   display: inline-block;
   float: right;
   background: #48466d;
-  width: 100%;
+  width: 50%;
+  height: 4em;
+}
+header{
+  display: inline-block;
+  float: left;
+  background: #48466d;
+  width: 50%;
+  height: 4em;
+}
+.titulo{
+  //font-size: 1em;
+  color: white;
+  vertical-align: middle;
+  margin-bottom: 1em;
+  height: 2em;
+  float: left;
+  padding-left: 5%;
+}
+.yo{
+  height: 2.75em;
+  width: 2.75em;
+  float: left;
+  vertical-align: middle;
+  padding-left: 2.5%;
+  padding-top: 0.5em;
 }
